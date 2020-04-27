@@ -13,7 +13,7 @@ from enum import Enum
 from geometry_msgs.msg import Twist, Point
 from nav_msgs.msg import Odometry
 from std_srvs.srv import SetBool, SetBoolResponse
-from deliverable2.srv import SetPoint, SetPointResponse
+from movement_starter.srv import SetPoint, SetPointResponse
 
 # Constants
 YAW_PRECISION = math.pi / 90    # +/- 2 degrees in radians
